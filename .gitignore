@@ -43,3 +43,13 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+# Ignore Python virtual environments
+myfastapiserver/.venv/
+
+# Ignore environment files
+.env
+*.env
+.env.*
+!.env.example # If you have an example file, make sure it's NOT ignored
